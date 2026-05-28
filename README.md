@@ -1,5 +1,58 @@
 # RoboShape
 Information Theoretical Pipeline for Privacy Preserving Intelligent Robotics Sensing
+### 🚀 Getting Started
+#### 1. Installation
+This repository provides a conda environment file to easily install all dependencies (including PyTorch, IsaacGym, and other utilities).
+```bash
+# Clone the repository
+git clone https://github.com/CoRL26RS/RoboShape.git
+cd RoboShape
+# Create the conda environment from the provided yaml file
+# Note: The file is named enviroment.yaml
+conda env create -f enviroment.yaml
+
+2. Project Structure
+The codebase is modularized into data preparation, baseline classifiers, Isaac Gym reinforcement learning environments, and core model training.
+
+RoboShape/
+├── classifiers/               # Baseline classification scripts for privacy/utility evaluation
+│   ├── classifier_noisy.py    # Baseline with noise injection
+│   ├── classifier_random_encoder.py
+│   └── eval_classifiers.py    # Evaluation logic for classifiers
+    └── classifier2.py         # Classifier for comparing RoboShape embeddings vs original embeddings
+├── data_prep/                 # Scripts to preprocess 3D scene datasets
+│   ├── preprocess_hm3d.py     # HM3D dataset processing
+│   ├── preprocess_scannet.py  # ScanNet dataset processing
+│   ├── inference_manual.py    # Inference script for obtaining 512-dim Sonata embeddings
+│   └── ...                    # Various histogram and feature extraction utilities
+├── roboshape_isaacgym/        # RL navigation environment using Isaac Gym
+│   ├── train_policy.py        # Main RL training script
+│   ├── scannet_nav_env.py     # Custom ScanNet navigation environment
+│   └── generate_scene_embeddings.py
+├── src/                       # Core model architecture and utilities
+│   ├── models/                # Encoder architectures and model definitions
+│   ├── data/                  # Dataloaders and dataset abstractions
+│   └── dual_optimization_encoder.py
+├── enviroment.yaml            # Conda environment dependencies
+├── train.py                   # Main training loop for RoboShape models
+└── test.py                    # Inference and testing routines
+└── roboshape.py               # main file
+
+3. Reproducibility & Running Scripts
+To reproduce the experiments, follow this pipeline:
+
+Step A: Data Preparation Before training, you must preprocess the raw datasets (ScanNet, HM3D, etc.) and extract the required geometric features.
+
+# Example: Preprocess ScanNet dataset
+python data_prep/preprocess_scannet.py
+
+# Run manual inference to obtain 512-dim Sonata embeddings
+python data_prep/inference_manual.py
+
+# Generate feature embeddings for baseline evaluations
+python data_prep/save_encoder_features_matterport3d.py
+
+Step B: Train the RoboShape Encoder To train the primary representation encoder with the dual optimization (utility vs privacy) objective:
 
 # Feature Extractor: Sonata
 We used PTv3 pre-trained model Sonata as feature extractor in order to use point cloud modalities.
