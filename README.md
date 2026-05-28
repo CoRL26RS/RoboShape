@@ -3,7 +3,7 @@ Information Theoretical Pipeline for Privacy Preserving Intelligent Robotics Sen
 ### 🚀 Getting Started
 #### 1. Installation
 This repository provides a conda environment file to easily install all dependencies (including PyTorch, IsaacGym, and other utilities).
-```bash
+bash
 # Clone the repository
 git clone https://github.com/CoRL26RS/RoboShape.git
 cd RoboShape
