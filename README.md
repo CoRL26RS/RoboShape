@@ -3,7 +3,7 @@ Information Theoretical Pipeline for Privacy Preserving Intelligent Robotics Sen
 ### 🚀 Getting Started
 #### 1. Installation
 This repository provides a conda environment file to easily install all dependencies (including PyTorch, IsaacGym, and other utilities).
-bash
+````bash
 # Clone the repository
 git clone https://github.com/CoRL26RS/RoboShape.git
 cd RoboShape
@@ -53,7 +53,7 @@ python data_prep/inference_manual.py
 python data_prep/save_encoder_features_matterport3d.py
 
 Step B: Train the RoboShape Encoder To train the primary representation encoder with the dual optimization (utility vs privacy) objective:
-
+````
 # Feature Extractor: Sonata
 We used PTv3 pre-trained model Sonata as feature extractor in order to use point cloud modalities.
 You can find the model details here: https://github.com/facebookresearch/sonata
