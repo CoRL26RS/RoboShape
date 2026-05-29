@@ -229,7 +229,8 @@ Loss curves of classifiers for randomly initialized encoder outputs:
 </div>
 Auroc results for 4 different baselines:
 <div align= "center">
-<img width="1800" height="750" alt="auroc_matterport3D" src="https://github.com/user-attachments/assets/902d6f92-0d66-4732-8a04-f3cc1359f437" />
+<img width="1800" height="750" alt="auroc_new" src="https://github.com/user-attachments/assets/2ec62196-1e7c-4029-8c78-177f06bdb0a9" />
+
 
 
 </div>
