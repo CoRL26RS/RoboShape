@@ -1,5 +1,7 @@
 # RoboShape
 Information Theoretical Pipeline for Privacy Preserving Intelligent Robotics Sensing
+<img width="2688" height="1476" alt="readmegraphic" src="https://github.com/user-attachments/assets/515d6f09-b255-43be-8c9b-bf4df2d31b74" />
+
 ### 🚀 Getting Started
 #### 1. Installation
 This repository provides a conda environment file to easily install all dependencies (including PyTorch, IsaacGym, and other utilities).
