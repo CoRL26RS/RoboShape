@@ -72,27 +72,27 @@ Below are samples of the point clouds visualizations obtained by running sonata_
 <table width="100%">
   <tr>
     <td align="center" width="20%">
-      <img width="588" height="512" alt="fig1" src="https://github.com/user-attachments/assets/a098d26d-81db-4879-945b-59dc0bf264c4" />
+      <img width="100%" alt="fig1" src="https://github.com/user-attachments/assets/a098d26d-81db-4879-945b-59dc0bf264c4" />
       <br>
       <i>Figure 1</i>
     </td>
     <td align="center" width="20%">
-      <img width="683" height="516" alt="fig2" src="https://github.com/user-attachments/assets/c467442a-6210-455d-b125-9cbc48cd4a94" />
+      <img width="100%"  alt="fig2" src="https://github.com/user-attachments/assets/c467442a-6210-455d-b125-9cbc48cd4a94" />
       <br>
       <i>Figure 2</i>
     </td>
     <td align="center" width="20%">
-      <img width="692" height="502" alt="fig3" src="https://github.com/user-attachments/assets/138e0134-d72a-462e-b2ad-81a9d7fea468" />
+      <img width="100%"  alt="fig3" src="https://github.com/user-attachments/assets/138e0134-d72a-462e-b2ad-81a9d7fea468" />
       <br>
       <i>Figure 3</i>
     </td>
     <td align="center" width="20%">
-      <img width="547" height="570" alt="fig4" src="https://github.com/user-attachments/assets/01021ecc-dccc-410b-9aba-8c2e24572d49" />
+      <img width="100%" alt="fig4" src="https://github.com/user-attachments/assets/01021ecc-dccc-410b-9aba-8c2e24572d49" />
       <br>
       <i>Figure 4</i>
     </td>
     <td align="center" width="20%">
-      <img width="549" height="570" alt="fig5" src="https://github.com/user-attachments/assets/21e6f08a-635f-477c-9483-aa779deabd40" />
+      <img width="100%" alt="fig5" src="https://github.com/user-attachments/assets/21e6f08a-635f-477c-9483-aa779deabd40" />
       <br>
       <i>Figure 5</i>
     </td>
