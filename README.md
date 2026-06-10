@@ -118,10 +118,6 @@ Distribution of numbers of points over all scenes as follows:
 <img width="1666" height="1038" alt="fig8" src="https://github.com/user-attachments/assets/492bbdf1-23ba-4960-a81d-9bd95e03d57e" />
 
 </div>
-<div align ="center">
-<img width="3578" height="1777" alt="fig9" src="https://github.com/user-attachments/assets/86b74205-db84-418a-83b1-35a73f950b9e" />
-
-</div>
 
 Distributions of furnitures over scene types :
 <div align= "center">
